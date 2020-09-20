@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Testimonials Slider</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="testimonials">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                            <div class="imgBx">
+                                <img src="user1.jpg" width="65">
+                            </div>
+                            <div class="details">
+                                <h2>
+                                    Someone Famous <br>
+                                    <span>Website Designer</span>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                            <div class="imgBx">
+                                <img src="user2.jpg" width="65">
+                            </div>
+                            <div class="details">
+                                <h2>
+                                    Someone Famous <br>
+                                    <span>Website Designer</span>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                            <div class="imgBx">
+                                <img src="user3.jpg" width="65">
+                            </div>
+                            <div class="details">
+                                <h2>
+                                    Someone Famous <br>
+                                    <span>Website Designer</span>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                            <div class="imgBx">
+                                <img src="user4.jpg" width="65">
+                            </div>
+                            <div class="details">
+                                <h2>
+                                    Someone Famous <br>
+                                    <span>Website Designer</span>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                            <div class="imgBx">
+                                <img src="user5.jpg" width="65">
+                            </div>
+                            <div class="details">
+                                <h2>
+                                    Someone Famous <br>
+                                    <span>Website Designer</span>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 0,
+                modifier: 1,
+                slideShadows: true,
+            },
+            loop: true,
+        });
+    </script>
+</body>
+</html>
